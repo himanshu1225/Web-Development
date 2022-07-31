@@ -1,0 +1,9 @@
+- This is the first look of at nodejs.
+- We will understand it using the analogy of android phone.
+- nodejs is android phone and the node_modules are nothing but the apps in the phone.
+- each app has its own features 
+- in phone we click on the app it opens, here we will interact with app using js.
+
+We will look at some modules of nodejs: 
+	- child_process
+	
