@@ -1,0 +1,28 @@
+HTML: content layer (Skeleton)
+ -- Structuring
+ -- content 
+
+CSS: Presentation layer
+ -- Beautify
+
+DOCTYPE: your web page is of what format? 
+HTML content is written with html elements (tags)
+
+
+id: unique for one element.
+class: can be common for more than one element.
+
+Styling: styling is done on HTML elements so we need to select it and do styling.
+
+CSS Selectors:
+    - Simple Selectors
+        - name (tag)
+        - id
+        - class
+    - Combinator Selectors
+        - space
+        - > (immediate in class)
+        - + immediate sibling
+        - ~ general sibling
+    - Attribure Selectors
+        

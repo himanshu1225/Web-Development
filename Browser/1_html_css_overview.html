@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- information regarding the web page like title, content of like UTF-8, screem view port etc -->
+    <title>Coder</title>
+    <style>
+      /* Basic Selectors */
+      h1 {
+        color: blue;
+      }
+      p {
+        background-color: lightpink;
+      }
+      #unique {
+        text-decoration: underline;
+      }
+      .common {
+        background-color: cadetblue;
+      }
+
+      /* Combinator Selctors */
+
+      /* saare p */
+      .common p {
+        color: grey;
+      }
+      /* immediate p tag only in class*/
+      .common > p {
+        background-color: bisque;
+      }
+      /* immediate sibling only*/
+      .common + div {
+        background-color: blue;
+      }
+      /* all  sibling */
+      .common ~ div {
+        background-color: brown;
+      }
+
+      /* Attribute Sibling */
+
+      label[for] {
+        color: blue;
+      }
+
+      label[for="pass"] {
+        background-color: red;
+      }
+      input[type] {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- What ever is displayed is done through body tag -->
+
+    <!-- Heading -->
+    <h1>India</h1>
+    <h2>Rajasthan</h2>
+    <h3>Jodhpur</h3>
+
+    <div class="common common2">
+      KHAMA GANI
+      <div class="something1">Something</div>
+      <div class="something2">
+        <p>
+          Jodhpur was historically the capital of the Kingdom of Marwar, which
+          is now part of Rajasthan.
+        </p>
+      </div>
+      <div class="something3">Something</div>
+      <p>Padharjo</p>
+    </div>
+
+    <div class="sib">I m sibling</div>
+    <div class="common">RAM RAM SA</div>
+    <div></div>
+    <div class="common2">PADHARO MAARE DESH</div>
+
+    <!-- Para -->
+    <p>
+      Jodhpur was historically the capital of the Kingdom of Marwar, which is
+      now part of Rajasthan.
+    </p>
+
+    <!-- anchor -->
+    <a href="https://www.google.com">Go to Google</a>
+
+    <!-- some division in the page for content arrangement  -->
+    <div id="unique">
+      Hello
+      <p>Jodhpurians</p>
+    </div>
+
+    <!-- lists -->
+    <ul>
+      <li>One</li>
+      <li>two</li>
+      <li>three</li>
+    </ul>
+
+    <ol>
+      <li>One</li>
+      <li>two</li>
+      <li>three</li>
+    </ol>
+
+    <!-- span like div with some difference -->
+    <span>Content filling</span>
+
+    <img width="50" src="/jodhpur.jpg" alt="My image" />
+
+    <!-- form tag -->
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" />
+
+      <label for="pass">Password</label>
+      <input type="password" id="pass" />
+
+      <label for="num">Number</label>
+      <input type="number" id="num" />
+    </form>
+  </body>
+</html>
