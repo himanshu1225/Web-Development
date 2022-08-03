@@ -4,6 +4,15 @@
 - each app has its own features 
 - in phone we click on the app it opens, here we will interact with app using js.
 
+- JS is just for interaction, actual features are implemented by the modules and your application.
+(like in programming you talk and express and actual work is done by the system)
 We will look at some modules of nodejs: 
 	- child_process
+	- os 
+	(nodejs is majorly used in making servers, so in backened where ever this is running, it will check that RAM
+	is available or not, written code will run or not);
+
+	- fs ---> file system (what ever operation you can do on file and folder, this helps us do that).
+	
+
 	
