@@ -25,4 +25,30 @@ CSS Selectors:
         - + immediate sibling
         - ~ general sibling
     - Attribure Selectors
+
+CSS UNITS: 
+    1. Absolute: non scalable and no responsive
+    - px
+
+    2. Relative: Scalable and Responsive
+    - rem
+    - em
+    - vh vw
+    - %
+
+    - rem:  relative to html tag. (html tag have defualt font size of around 16px.)
+    1rem = 1*16 px
+
+    - em:   relative to element itself.
+    Note: if it does not have any default font-value then it is relative to its parent element.
+
+    - vh: relative to viewport height.
+    - vw: relative to viewport width.
+    (browser default view port h and view port w will be 100 vh and vw)
+    10 vh = 10 % of view port.
+
+    - %: relative to parent element.
+
+Note: Most widely wil focus on rem, vh, vw, %
+
         
